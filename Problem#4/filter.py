@@ -15,10 +15,10 @@ def process_and_print(input_string):
     if (input_data[i]<0):
       sort_list.append(input_data[i])
   print(sort_list)
+  """"
   sort_list = sort_list.sort()
   sort_list = sort_list [::-1]
-    
-    
+"""
     # Print sorted integers
   print(sort_list)
     # Sort integers in reverse order
