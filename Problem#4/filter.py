@@ -29,7 +29,7 @@ def process_and_print(input_string):
           lowest_number = sort_list[i]
   """
   sort_list = sort_list.sort()
-  sort_list = sort_list [::-1]
+  sort_list = sort_list 
     
     
     # Print sorted integers
