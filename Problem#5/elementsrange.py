@@ -7,6 +7,7 @@ def filter_and_print_range(input_list, min_val, max_val):
                 my_list.append(input_list[i])
     sep = ","
     my_list = sep.join(my_list)
+    print(my_list)
 if __name__ == '__main__':
     # Get input for the list of integers
     user_input = input("Enter a space-separated string of numbers: ")
@@ -16,7 +17,7 @@ if __name__ == '__main__':
     user_put = input("Enter the min and max values separated by a space: ")
     numbers = user_put.split()
     min_val, max_val = numbers[0],numbers[1]
-    print(filter_and_print_range(input_list,min_val,max_val))
+    filter_and_print_range(input_list,min_val,max_val))
 
     # Call the function to filter and print the numbers in the given range
    
