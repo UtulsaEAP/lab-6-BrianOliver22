@@ -17,7 +17,7 @@ def process_and_print(input_string):
   print(sort_list)
   """"
   sort_list = sort_list.sort()
-  sort_list = sort_list [::-1]
+  sort_list = sort_list
 """
     # Print sorted integers
   #print(sort_list)
