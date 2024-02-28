@@ -15,10 +15,8 @@ def process_and_print(input_string):
     if (input_data[i]<0):
       sort_list.append(input_data[i])
   print(sort_list)
-  """"
   sort_list = sort_list.sort()
   sort_list = sort_list
-"""
     # Print sorted integers
   #print(sort_list)
     # Sort integers in reverse order
@@ -28,12 +26,8 @@ def process_and_print(input_string):
       if lowest_number > sort_list[i]:
           lowest_number = sort_list[i]
   """
-  sort_list = sort_list.sort()
-  sort_list = sort_list 
-    
     
     # Print sorted integers
-  print(sort_list)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
