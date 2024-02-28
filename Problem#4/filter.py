@@ -20,7 +20,7 @@ def process_and_print(input_string):
   sort_list = sort_list [::-1]
 """
     # Print sorted integers
-  print(sort_list)
+  #print(sort_list)
     # Sort integers in reverse order
   lowest_number = 0
   """"
