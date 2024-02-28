@@ -7,7 +7,7 @@ def process_and_print(input_string):
 
     # Convert strings to integers and filter out negative values
   input_data = input_string.split()
-  
+
   for i in range(len(input_data)):
     input_data[i] = eval(input_data[i])
     sort_list = []
@@ -15,7 +15,7 @@ def process_and_print(input_string):
   for i in range(len(input_data)):
     if (input_data[i]<0):
       sort_list.append(input_data[i])
-    
+  print(sort_list)
     # Sort integers in reverse order
   lowest_number = 0
   """"
