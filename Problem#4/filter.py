@@ -6,27 +6,28 @@ def process_and_print(input_string):
       # Split into separate strings
 
     # Convert strings to integers and filter out negative values
-    input_data = input_string.split()
-    for i in range(len(input_data)):
-      input_data[i] = eval(input_data[i])
+  input_data = input_string.split()
+  
+  for i in range(len(input_data)):
+    input_data[i] = eval(input_data[i])
     sort_list = []
     
-    for i in range(len(input_data)):
-        if (input_data[i]<0):
-            sort_list.append(input_data[i])
+  for i in range(len(input_data)):
+    if (input_data[i]<0):
+      sort_list.append(input_data[i])
     
     # Sort integers in reverse order
-    lowest_number = 0
-    """"
+  lowest_number = 0
+  """"
     for i in range(len(sort_list)):
       if lowest_number > sort_list[i]:
           lowest_number = sort_list[i]
     """
-    sort_list = sort_list.sort()
+  sort_list = sort_list.sort()
     
     
     # Print sorted integers
-    print(sort_list)
+  print(sort_list)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
