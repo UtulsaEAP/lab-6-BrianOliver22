@@ -17,7 +17,7 @@ if __name__ == '__main__':
     user_put = input("Enter the min and max values separated by a space: ")
     numbers = user_put.split()
     min_val, max_val = numbers[0],numbers[1]
-    filter_and_print_range(input_list,min_val,max_val))
+    filter_and_print_range(input_list,min_val,max_val)
 
     # Call the function to filter and print the numbers in the given range
    
