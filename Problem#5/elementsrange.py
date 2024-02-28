@@ -3,7 +3,7 @@ def filter_and_print_range(input_list, min_val, max_val):
     my_list = []
     for i in range(len(input_list)):
         if (input_list[i] <max_val):
-            if (input_list[i] > max_val):
+            if (input_list[i] > min_val):
                 my_list.append(input_list[i])
     sep = ","
     my_list = sep.join(my_list)
