@@ -11,10 +11,15 @@ def process_and_print(input_string):
   for i in range(len(input_data)):
     input_data[i] = eval(input_data[i])
   sort_list = []
-  #print(input_data)
   for i in range(len(input_data)):
     if (input_data[i]<0):
       sort_list.append(input_data[i])
+  print(sort_list)
+  sort_list = sort_list.sort()
+  sort_list = sort_list [::-1]
+    
+    
+    # Print sorted integers
   print(sort_list)
     # Sort integers in reverse order
   lowest_number = 0
@@ -23,11 +28,12 @@ def process_and_print(input_string):
       if lowest_number > sort_list[i]:
           lowest_number = sort_list[i]
   """
-  input_data = input_data.sort()
+  sort_list = sort_list.sort()
+  sort_list = sort_list [::-1]
     
     
     # Print sorted integers
-  print(input_data)
+  print(sort_list)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
