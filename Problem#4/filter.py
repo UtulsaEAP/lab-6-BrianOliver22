@@ -11,7 +11,6 @@ def process_and_print(input_string):
         if (input_data[i]<0):
             sort_list.append(input_data[i])
     
-    print(sort_list)
     # Sort integers in reverse order
     lowest_number = 0
     for i in range(len(sort_list)):
