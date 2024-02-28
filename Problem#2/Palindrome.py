@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+Lab time: 2/28.2024 12:45
+"""
 def check_palindrome(user_input):
  #type your code here
     input_user = user_input [::-1]

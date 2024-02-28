@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+Lab time: 2/28.2024 1:30
+"""
 def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
     my_list = []

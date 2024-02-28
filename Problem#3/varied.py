@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+Lab time: 2/28.2024 1:10
+"""
 def process_input(input_string):
       # Split into separate strings
   

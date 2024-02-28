@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+Lab time: 2/28.2024 1:15
+"""
 def process_and_print(input_string):
       # Split into separate strings
 
@@ -13,12 +17,16 @@ def process_and_print(input_string):
     
     # Sort integers in reverse order
     lowest_number = 0
+    """"
     for i in range(len(sort_list)):
-        if lowest_number > sort_list[i]:
-            lowest_number = sort_list[i]
-        
+      if lowest_number > sort_list[i]:
+          lowest_number = sort_list[i]
+    """
+    sort_list = sort_list.sort()
+    
+    
     # Print sorted integers
-    print(lowest_number)
+    print(sort_list)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
