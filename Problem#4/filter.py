@@ -16,6 +16,7 @@ def process_and_print(input_string):
       sort_list.append(input_data[i])
   print(sort_list)
   sort_list = sort_list.sort()
+  print(sort_list)
   sort_list = sort_list
   print(sort_list)
     # Print sorted integers
