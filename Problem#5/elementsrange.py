@@ -12,6 +12,7 @@ if __name__ == '__main__':
     numbers = user_put.split()
     min_val, max_val = numbers[0],numbers[1]
     print(min_val,max_val)
+    print(min_val)
 
     # Call the function to filter and print the numbers in the given range
    
