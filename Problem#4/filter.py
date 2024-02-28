@@ -10,24 +10,24 @@ def process_and_print(input_string):
 
   for i in range(len(input_data)):
     input_data[i] = eval(input_data[i])
-    sort_list = []
-    
+  sort_list = []
+  print(input_data)
   for i in range(len(input_data)):
     if (input_data[i]<0):
       sort_list.append(input_data[i])
-  print(sort_list)
+  #print(sort_list)
     # Sort integers in reverse order
   lowest_number = 0
   """"
     for i in range(len(sort_list)):
       if lowest_number > sort_list[i]:
           lowest_number = sort_list[i]
-    """
-  sort_list = sort_list.sort()
+  """
+  input_data = input_data.sort()
     
     
     # Print sorted integers
-  print(sort_list)
+  print(input_data)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
