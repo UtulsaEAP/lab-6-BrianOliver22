@@ -15,7 +15,7 @@ def process_and_print(input_string):
     # Sort integers in reverse order
     lowest_number = 0
     for i in range(len(sort_list)):
-        if lowest_number < sort_list[i]:
+        if lowest_number > sort_list[i]:
             lowest_number = sort_list[i]
         
     # Print sorted integers
