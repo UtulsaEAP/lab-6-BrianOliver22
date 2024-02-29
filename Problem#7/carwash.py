@@ -4,8 +4,20 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     total = 0
    
    #type your code here 
+    total += base_wash
+    if (service_choice1 in services):
+        total += services[service_choice1]
+    if (service_choice2 in services):
+        total += services[service_choice2]
+    print("ZyCar Wash")
+    print("Base car wash - $10")
+    if (service_choice1 in services):
+        print(service_choice1+" - $"+str(services[service_choice1]))
+    if (service_choice2 in services):
+        print(service_choice2+" - $"+str(services[service_choice2]))
+    print("-----")
+    print("Total price: $"+str(total))
 
-    
 if __name__ == '__main__':
     # Get user input for service choices
     service_choice1 = input("Enter first service choice: ")
