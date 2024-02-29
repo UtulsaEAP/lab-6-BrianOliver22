@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+Lab time: 2/29/2024 12:30
+"""
 def process_user_contacts(user_input):
     user_contacts = dict(subString.split(",") for subString in user_input.split(" "))
 
