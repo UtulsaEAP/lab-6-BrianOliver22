@@ -10,7 +10,7 @@ def process_user_contacts(user_input):
     
     # Get contact name from input, output contact's phone number
     contact_name = input("Enter the contact name: ")
-    
+    print(user_contacts[contact_name])
    
 if __name__ == '__main__':
     # Get input for word pairs
