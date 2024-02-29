@@ -1,6 +1,5 @@
 def process_user_contacts(user_input):
     user_contacts = dict(subString.split(",") for subString in user_input.split(" "))
-    print(user_contacts)
 
   #  user_input = 
    # tokens = 
