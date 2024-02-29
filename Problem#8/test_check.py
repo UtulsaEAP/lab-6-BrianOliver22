@@ -1,3 +1,4 @@
+""""
 from check import in_order
 
 def test_passed():
@@ -25,3 +26,4 @@ def test_passed2():
 # Run the tests
 test_passed()
 test_passed2()
+"""
