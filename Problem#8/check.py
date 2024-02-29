@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+Lab time: 2/29/2024 12:40
+"""
 def in_order(nums):
     # Type your code here.
     check = True
