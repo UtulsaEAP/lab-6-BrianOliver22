@@ -8,12 +8,11 @@ def food_input():
     storage = []
 
     #type you while  loop here
-    while (user_input != quit):
+    while (user_input != "quit 0"):
+        tokens = user_input.split()
         if (user_input != quit):
             storage.append("Eating "+ str(tokens[1]) + " " +str(tokens[0]) + " a day keeps you happy and healthy.")
         user_input = input()
-        tokens = user_input.split()
-        user_input= tokens[0]
     sep = "\n"
     storage = sep.join(storage)
     print(storage)
