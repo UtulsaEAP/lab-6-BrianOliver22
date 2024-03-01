@@ -26,22 +26,22 @@ if __name__ == '__main__':
 
     nums1 = [5, 6, 7, 8, 3]
 
-if in_order(nums1):
+    if in_order(nums1):
 
-    print('In order')
+        print('In order')
 
-else:
+    else:
 
-    print('Not in order')
+        print('Not in order')
 
-    # Test in-order example
+        # Test in-order example
 
-    nums2 = [5, 6, 7, 8, 10]
+        nums2 = [5, 6, 7, 8, 10]
 
-if in_order(nums2):
+    if in_order(nums2):
 
-    print('In order')
+        print('In order')
 
-else:
+    else:
 
-    print('Not in order')
+        print('Not in order')
