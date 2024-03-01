@@ -26,11 +26,11 @@ def process_and_print(input_string):
   #print(sorted_list)
   sep = " "
   sorted_list = sep.join(sorted_list)
-  print(sorted_list)
+  print(sorted_list+" ")
     # Print sorted integers
   #print(sort_list)                10 -7 4 -39 -6 12 -2
     # Sort integers in reverse order
-  lowest_number = 0
+  #lowest_number = 0
   """"
     for i in range(len(sort_list)):
       if lowest_number > sort_list[i]:

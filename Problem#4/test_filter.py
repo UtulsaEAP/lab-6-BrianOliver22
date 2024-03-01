@@ -42,7 +42,7 @@ class TestProcessAndPrint(unittest.TestCase):
 
     def test_another_negative_input(self):
         user_input = "-3 -99 -3 -1 -27"
-        expected_output = "-1 -3 -3 -27 -99"
+        expected_output = "-1 -3 -3 -27 -99 "
         
         # Redirect stdout to capture the print statements
         import sys
