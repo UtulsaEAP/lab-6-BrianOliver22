@@ -22,6 +22,7 @@ def process_and_print(input_string):
   sorted_list = sorted(sort_list)
   for i in range(len(sorted_list)):
     sorted_list[i] = str(sorted_list[i])
+  sorted_list = sorted_list [::-1]
   #print(sorted_list)
   sep = " "
   sorted_list = sep.join(sorted_list)
