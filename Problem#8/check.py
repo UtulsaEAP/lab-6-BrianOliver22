@@ -2,7 +2,7 @@
 Name: Brian Oliver
 Lab time: 3/1/2024 3:20
 """
-def in_order(nums):
+def in_order(nums1):
 
     # Type your code here.
 
@@ -10,9 +10,9 @@ def in_order(nums):
 
     #order = 0
 
-    for i in range(1, len(nums)):
+    for i in range(1, len(nums1)):
 
-        if nums[i - 1] > nums[i]:
+        if nums1[i - 1] > nums1[i]:
 
             return False
 
@@ -33,8 +33,6 @@ if in_order(nums1):
 else:
 
     print('Not in order')
-
-       
 
     # Test in-order example
 
