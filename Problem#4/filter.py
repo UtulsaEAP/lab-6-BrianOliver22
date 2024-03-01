@@ -14,7 +14,7 @@ def process_and_print(input_string):
   for i in range(len(input_data)):
     if (input_data[i]<0):
       sort_list.append(input_data[i])
-  print(sort_list)
+ # print(sort_list)
   sort_list = sort_list.sort()
   print(sort_list)
   sort_list = sort_list
