@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
         # Test in-order example
 
-        nums2 = [5, 6, 7, 8, 10]
+    nums2 = [5, 6, 7, 8, 10]
 
     if in_order(nums2):
 
