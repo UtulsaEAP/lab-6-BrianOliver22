@@ -26,7 +26,7 @@ def process_and_print(input_string):
   #print(sorted_list)
   sep = " "
   sorted_list = sep.join(sorted_list)
-  print(sorted_list + " ")
+  print(sorted_list + " " ,end='')
     # Print sorted integers
   #print(sort_list)                10 -7 4 -39 -6 12 -2
     # Sort integers in reverse order
